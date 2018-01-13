@@ -1,0 +1,318 @@
+/*
+Theme Name: croccante
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.spaceLeft {
+	margin-left: 0;
+	margin-right: 0.5em;
+}
+.spaceRight {
+	margin-right: 0;
+	margin-left: 0.5em;
+}
+.main-navigation ul {
+	padding-right: 0;
+}
+.main-navigation, .icon-search, #push-nav {
+	float: left;
+}
+header.site-header .mainLogo {
+	float: right;
+}
+#push-nav, .icon-search {
+	margin-left: inherit;
+	margin-right: 1em;
+}
+.main-navigation ul ul {
+	left: 0;
+    right: auto;
+}
+.main-navigation ul ul a {
+	text-align: left;
+}
+.main-navigation ul ul ul {
+	left: 100%;
+	right: inherit;
+}
+.main-navigation li a:not(:last-child):after {
+    margin: 0 7px 0 0;
+	float: left;
+	line-height: inherit;
+}
+.main-navigation ul ul li a:not(:last-child):after {
+    content: "\f105";
+    margin: 0 0 0 7px;
+    float: right;
+}
+#tertiary.widget-area {
+	left: -390px;
+	right: inherit;
+	-wekbit-transition-property: left;
+    -moz-transition-property: left;
+    -o-transition-property: left;
+    transition-property: left;
+}
+#tertiary.widget-area.open {
+    left: 30px;
+	right: inherit;
+}
+.croccante_main_text {
+    transform: translateX(50%);
+}
+.aboutus_columns_three.one {
+    text-align: left;
+}
+.skillTop .skillName {
+	float: right;
+}
+.skillTop .skillNameUnder {
+	left: inherit;
+	right: 0px;
+}
+.skillTop .skillValue {
+	float: left;
+}
+.skillBottom .skillRealBarCyrcle {
+	left: -5px;
+	right: inherit;
+}
+.cta_columns .ctaText {
+	float: right;
+}
+.cta_columns .ctaButton {
+	float: left;
+}
+.cta_columns .ctaIcon {
+	margin-right: inherit;
+	margin-left: 1em;
+}
+.serviceText {
+	float: right;
+	padding-right: 3em;
+	padding-left: inherit;
+}
+.serviceIcon {
+	float: right;
+}
+.entry-featuredImg {
+    direction: ltr;
+}
+.team_columns, .team_columns .croccanteTeamSingle, .cta_columns .ctaPhrase h3, .cta_columns .ctaPhrase p {
+	text-align: right;
+}
+footer.site-footer .site-social {
+	float: left;
+}
+footer.site-footer .site-info {
+	float: right;
+}
+#toTop {
+	right: inherit;
+	left: -80px;
+	-webkit-transition-property: left;
+    -moz-transition-property: left;
+    -o-transition-property: left;
+    transition-property: left;
+}
+#toTop.visible {
+    right: inherit;
+	left: 0px;
+}
+.widget.widget_search input[type="search"],
+.widget.woocommerce.widget_product_search input[type="search"],
+.woocommerce #content form.cart .quantity input[type="number"] {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+	border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+	float: right;
+	border-right-width: 1px;
+	border-left-width: 0;
+}
+.widget.widget_search input[type="submit"],
+.widget.woocommerce.widget_product_search input[type="submit"],
+.woocommerce #content form.cart .button {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+	border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+	float: left;
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    margin-right: 85px;
+	margin-left: 0;
+}
+.woocommerce #reviews .commentlist li .avatar {
+    top: 0;
+    right: 0;
+    left: inherit;
+}
+.woocommerce div.product form.cart .variations td.label {
+    float: right;
+}
+.woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce .woocommerce-message:before {
+    left: inherit;
+	right: 1em;
+}
+.woocommerce-error li a, .woocommerce-message a {
+    float: left;
+}
+.woocommerce-message, .woocommerce-info, .woocommerce-error {
+    padding: 1.5em 2.5em 1.5em 1.5em;
+}
+.product_list_widget li img {
+    margin-right: inherit;
+    margin-left: 1em;
+    float: right;
+}
+.widget_shopping_cart .product_list_widget li a.remove {
+    right: inherit;
+    left: 0;
+}
+.woocommerce .content-area .images {
+	float: right;
+}
+.woocommerce .content-area .summary {
+	float: left;
+}
+.content-area .onsale {
+	right: 5px;
+	left: inherit;
+}
+.widget_archive li, .widget_categories li {
+    text-align: left;
+}
+.widget_archive li a, .widget_categories li a {
+    float: right;
+}
+.widget.widget_categories li:before {
+	padding-right: inherit;
+	padding-left: 0.5em;
+	float: right;
+}
+.widget.widget_archive li:before {
+	content: "\f0d9";
+	padding-right: inherit;
+	padding-left: 0.5em;
+	float: right;
+}
+aside ul.menu .indicatorBar {
+	right: inherit;
+	left: 0;
+	border-left-width: 0px;
+    border-left-style: dashed;
+	border-right-width: 1px;
+    border-right-style: dashed;
+}
+aside ul.menu ul.sub-menu {
+    padding-left: inherit;
+	padding-right: 2em;
+}
+.read-more i:before {
+	content: "\f0d9";
+}
+.post-navigation .nav-previous i:before {
+	content: "\f178";
+}
+.post-navigation .nav-next i:before {
+	content: "\f177";
+}
+blockquote {
+    padding: 1.5em 3.5em 1.5em 1.5em;
+}
+blockquote::before {
+	left: inherit;
+	right: 10px;
+	content: "\f10e";
+}
+.tags-links {
+	float: right;
+}
+.hentry .edit-link {
+	float: left;
+}
+#comments article footer img {
+    float: right;
+    margin-left: 1em;
+	margin-right: inherit;
+}
+#comments .reply {
+	right: inherit;
+	left: 1.5em;
+}
+#comments ol ol {
+    padding-left: inherit;
+	padding-right: 10%;
+}
+.navigation.pagination .nav-links .prev {
+	float: right;
+}
+.navigation.pagination .nav-links .prev i:before {
+	content: "\f101";
+}
+.navigation.pagination .nav-links .next {
+	float: left;
+}
+.navigation.pagination .nav-links .next i:before {
+	content: "\f100";
+}
+.woocommerce ul.products > li {
+	float: right;
+}
+@media all and (max-width: 1024px) {
+	.main-navigation a, .main-navigation ul ul a {
+		text-align: right;
+	}
+	.main-navigation ul li .indicator {
+		left: 0;
+		right: inherit;
+		border-left-width: 0px;
+		border-right-width: 1px;
+		border-right-style: dashed;
+	}
+	.main-navigation ul ul, .main-navigation ul ul ul {
+		padding-left: 0;
+		padding-right: 3%;
+	}
+	.serviceIcon {
+		float: none;
+	}
+}
+@media all and (max-width: 850px) {
+	header.site-header .mainLogo {
+		float: none;
+	}
+	.main-navigation {
+		float: none;
+	}
+	.aboutus_columns_three.one, .aboutus_columns_three {
+		text-align: center;
+	}
+}
+@media all and (max-width: 767px) {
+	#tertiary.widget-area.open {
+		left: 15px;
+	}
+	.cta_columns .ctaIcon {
+		margin: 0 auto;
+	}
+	.cta_columns .ctaPhrase h3, .cta_columns .ctaPhrase p {
+		text-align: center;
+	}
+}
+@media all and (max-width: 559px) {
+	#tertiary.widget-area.open {
+		left: 0px;
+	}
+}

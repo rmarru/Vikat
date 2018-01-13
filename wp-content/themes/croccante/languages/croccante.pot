@@ -1,0 +1,1484 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Croccante\n"
+"POT-Creation-Date: 2017-12-05 15:08+0100\n"
+"PO-Revision-Date: 2017-12-05 15:09+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:32
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:39 index.php:44 search.php:41
+msgid "Previous"
+msgstr ""
+
+#: archive.php:40 index.php:45 search.php:42
+msgid "Next"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:54
+msgid "Reply"
+msgstr ""
+
+#: comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:87
+msgid "Name *"
+msgstr ""
+
+#: comments.php:88
+msgid "Email *"
+msgstr ""
+
+#: comments.php:89
+msgid "Website *"
+msgstr ""
+
+#: comments.php:89
+msgid "Website"
+msgstr ""
+
+#: comments.php:91
+msgid " Required fields are marked "
+msgstr ""
+
+#. translators: %s: wordpress login url
+#: comments.php:96
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#. translators: 1: profile user link, 2: username, 3: logout link
+#: comments.php:98
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:99
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:100
+msgid "Leave a Reply"
+msgstr ""
+
+#. translators: %s: name of person to reply
+#: comments.php:102
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:103
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:104
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:105
+msgid "Comment *"
+msgstr ""
+
+#: footer.php:49
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. translators: %s: WordPress name
+#: footer.php:52
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: 1: theme name, 2: theme developer
+#: footer.php:58
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:58 functions.php:119
+msgid "Primary"
+msgstr ""
+
+#: functions.php:150
+msgid "Classic Sidebar"
+msgstr ""
+
+#: functions.php:152 functions.php:161 functions.php:170 functions.php:179
+#: functions.php:188
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:159
+msgid "Push Sidebar"
+msgstr ""
+
+#: functions.php:168
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:177
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:186
+msgid "Footer 3"
+msgstr ""
+
+#: header.php:31
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:68
+msgid "Menu"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:31
+#: inc/admin/croccante-admin-page.php:104
+msgid "About"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:66
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:69
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:81
+msgid "Dismiss"
+msgstr ""
+
+#. translators: 1: start option panel link, 2: end option panel link
+#: inc/admin/croccante-admin-page.php:85
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing Croccante theme! To fully take advantage of "
+"the best our theme can offer and read the documentation please make sure you "
+"visit our %1$swelcome page%2$s."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:89
+msgid "Get started with Croccante"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:110
+msgid "Theme Info"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:112
+msgid "View Demo"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:114
+msgid "View PRO version Demo"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:116
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:129
+msgid "Free Vs PRO"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:132
+#: inc/pro-button/class-customize.php:90
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:135
+msgid "Changelog"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:163
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:164
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:165
+msgid "Customize"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:168
+msgid "Got theme support question?"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:169
+msgid "Please put it in our support forum."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:170
+msgid "Support"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:173
+msgid "Need more features?"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:174
+#: inc/admin/croccante-admin-page.php:489
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:175
+msgid "Info about PRO version"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:180
+#: inc/admin/croccante-admin-page.php:188
+msgid "Translate"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:184
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:199
+msgid "Return to Updates"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:199
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:202
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:202
+msgid "Go to Dashboard"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:215
+msgid "View changelog below:"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:260
+msgid "Croccante WordPress Theme Documentation"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:263
+msgid "How to set the \"one page\" template in the home page"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:268
+msgid ""
+"Watch the video to set the onepage template on the home page, or read the "
+"step-by-step instructions below."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:276
+msgid ""
+"1) Create a new page and name it as you like (eg. My Home Page). In the "
+"\"Page Attributes\" section choose the template called \"One Page Website\" "
+"and save the page."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:284
+msgid ""
+"2) Go in your WordPress Dashboard under \"Settings-> Reading\". Set the "
+"\"Front page displays\" on \"Static Page\" and choose the page you "
+"previously created as Front page (eg. My Home Page)."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:292
+msgid ""
+"3) Perfect! Now you can go in your WordPress Dashboard under \"Appearance-> "
+"Customize\" and you'll see the section called \"Croccante Onepage\" in which "
+"you can customize the home page."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:304
+msgid "One Page: how to scroll to section using the menu"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:309
+msgid ""
+"1) Go to your WordPress Dashboard under \"Appearance-> Customize-> Croccante "
+"Onepage\" and choose one section (eg. Features) and add a section ID (eg. "
+"features) for this section. Save the options."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:317
+msgid ""
+"2) Now go to your WordPress Dashboard under \"Appearance-> Menus\" and "
+"create a new custom link with the URL of your home page followed the ID "
+"created for the section (eg. yoursite.com/#features). Add this custom link "
+"to your menu and save the options."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:329
+msgid ""
+"One Page: how to set \"About Us\" section, \"Features\" section, \"Services"
+"\" section and \"Team\" section"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:334
+msgid ""
+"Watch the video to set the \"About Us\" section, or read the step-by-step "
+"instructions below."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:342
+msgid ""
+"1) These sections (About Us, Features, Services and Team) work in the same "
+"way and with the same procedure. To insert the content create a new page, "
+"and insert the title, content and featured image. The featured image is only "
+"valid for the \"About Us\" and \"Team\" section but is not mandatory."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:350
+msgid ""
+"2) Now go to \"Appearance-> Customize-> Croccante Onepage\" and choose the "
+"section you want to edit (About Us, Features or Services). Find the option "
+"called \"Choose the page to display\" and search the page you just created."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:358
+msgid ""
+"3) Now the section will show the content of the page previously created and "
+"the layout will be like the example image. The \"Features\", \"Services\" "
+"and \"Team\" sections work in the same way but will have a different layout."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:370
+msgid "One Page: how to re-order sections"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:375
+msgid ""
+"Re-order sections is available in Croccante PRO version. With this feature "
+"you can choose the position of each section using drag and drop. Click on "
+"the button below for more information:"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:376
+msgid "More Info About PRO Version"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:388
+msgid "How to add social icons"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:393
+msgid ""
+"Go to your WordPress Dashboard under \"Appearance-> Customize-> Croccante "
+"Theme Options-> Social Network\". Here you can choose which social network "
+"to show, social icons will be displayed in the footer."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:405
+msgid "How to add custom logo"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:410
+msgid ""
+"Go to your WordPress Dashboard under \"Appearance-> Customize-> Site Identity"
+"\". Here you can upload your custom logo (size 250x55px)."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:422
+msgid "How to change theme colors"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:427
+msgid ""
+"Go to your WordPress Dashboard under \"Appearance-> Customize-> Croccante "
+"Theme Options-> Theme Colors\". Here you can change the theme colors "
+"according to sections of the site (borders, content, push sidebar and "
+"footer)."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:439
+msgid "How to display page loader"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:444
+msgid ""
+"Go to your WordPress Dashboard under \"Appearance-> Customize-> Croccante "
+"Theme Options-> General Settings\", find the option called \"Display page "
+"loader\" and check it. The background will be the same of \"Content "
+"background color\" and the loader icon the same color of \"Link color\"."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:456
+msgid "How to highlight a menu item"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:461
+msgid ""
+"If you need to emphasize a menu item (call to action, donate button, etc..) "
+"just go to your WordPress Dashboard under \"Appearance-> Menus\". Create a "
+"new \"Custom Links\" and drag it into the menu. Expand the entry and in the "
+"\"CSS Classes\" section write: crestaMenuButton"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:469
+msgid ""
+"This will be the result (the colors change according to the ones chosen)."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:493
+msgid "Features"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:494
+msgid "Croccante"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:495
+msgid "Croccante PRO"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:500
+msgid "Theme Options made with the WP Customizer"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:505
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:510
+msgid "Logo Upload"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:515
+msgid "Unlimited Text and Background Color"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:520
+msgid "Choose Social Icons"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:522
+msgid "+ more social buttons"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:525
+msgid "WooCommerce Compatibility"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:530
+msgid "WPML Multilingual ready"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:535
+msgid "RTL Support"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:540
+msgid "Sidebar and Footer Widgets"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:545
+msgid "Loading Page"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:546
+msgid "1 loader"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:547
+msgid "7 loaders"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:550
+msgid "One Page Template"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:552
+msgid "+ more sections"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:555
+msgid "One Page additional sections"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:557
+msgid ""
+"Portfolio, Google Map, Numbers, Newsletter, Clients, Testimonials, Video and "
+"more..."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:560
+msgid "One Page Section Reorder"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:565
+msgid "One Page Template scroll animations"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:570
+msgid "One Page choose Slider Height"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:575
+msgid "Portfolio Template"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:580
+msgid "Parallax Effect"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:585
+msgid "Google Fonts switcher"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:590
+msgid "Manage sidebar position"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:595
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:600
+msgid "Post views counter"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:605
+msgid "6 Shortcodes"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:610
+msgid "9 Exclusive Widgets"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:615
+msgid "Related Posts Box"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:620
+msgid "Information About Author Box"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:625
+msgid "PowerTip, LightBox, Custom Copyright Text and much more..."
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:633
+msgid "View PRO version demo"
+msgstr ""
+
+#: inc/admin/croccante-admin-page.php:634
+msgid "Get Croccante PRO"
+msgstr ""
+
+#: inc/customizer.php:103
+msgid "Croccante Theme Options"
+msgstr ""
+
+#: inc/customizer.php:110
+msgid "Croccante Onepage"
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:119
+msgid "Theme Colors"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Social Network"
+msgstr ""
+
+#: inc/customizer.php:130
+msgid "Onepage general settings"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Section slider"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Section about us"
+msgstr ""
+
+#: inc/customizer.php:145
+msgid "Section features"
+msgstr ""
+
+#: inc/customizer.php:150
+msgid "Section skills"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "Section call to action"
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "Section services"
+msgstr ""
+
+#: inc/customizer.php:165
+msgid "Section blog"
+msgstr ""
+
+#: inc/customizer.php:170
+msgid "Section team"
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "Section contact"
+msgstr ""
+
+#: inc/customizer.php:182
+msgid "Croccante useful links"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid "Display page loader"
+msgstr ""
+
+#: inc/customizer.php:209
+msgid "Display search button in the header"
+msgstr ""
+
+#: inc/customizer.php:223
+msgid "Enable Smooth Scroll"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Show scroll to top button also on mobile view"
+msgstr ""
+
+#: inc/customizer.php:251
+msgid "Custom Excerpt Final"
+msgstr ""
+
+#: inc/customizer.php:265
+msgid "Show excerpt or full post"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Show excerpt"
+msgstr ""
+
+#: inc/customizer.php:272
+msgid "Show full post"
+msgstr ""
+
+#: inc/customizer.php:290
+msgid "Main Border Section"
+msgstr ""
+
+#: inc/customizer.php:306
+msgid "Content Section"
+msgstr ""
+
+#: inc/customizer.php:322
+msgid "Push Sidebar Section"
+msgstr ""
+
+#: inc/customizer.php:338
+msgid "Footer Section"
+msgstr ""
+
+#: inc/customizer.php:348
+msgid "Main Border Background Color"
+msgstr ""
+
+#: inc/customizer.php:354
+msgid "Main Border Text Color"
+msgstr ""
+
+#: inc/customizer.php:360
+msgid "Main Border Link Hover Color"
+msgstr ""
+
+#: inc/customizer.php:366
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/customizer.php:372
+msgid "General Secondary Background Color"
+msgstr ""
+
+#: inc/customizer.php:378
+msgid "Content Text Color"
+msgstr ""
+
+#: inc/customizer.php:384
+msgid "Content Link Color"
+msgstr ""
+
+#: inc/customizer.php:390
+msgid "General Border Color"
+msgstr ""
+
+#: inc/customizer.php:396
+msgid "Push sidebar background color"
+msgstr ""
+
+#: inc/customizer.php:402
+msgid "Push sidebar text color"
+msgstr ""
+
+#: inc/customizer.php:408
+msgid "Push sidebar link color"
+msgstr ""
+
+#: inc/customizer.php:414
+msgid "Footer background color"
+msgstr ""
+
+#: inc/customizer.php:420
+msgid "Footer text color"
+msgstr ""
+
+#: inc/customizer.php:426
+msgid "Footer link color"
+msgstr ""
+
+#: inc/customizer.php:458
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:463
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer.php:468
+msgid "Google Plus URL"
+msgstr ""
+
+#: inc/customizer.php:473
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/customizer.php:478
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/customizer.php:483
+msgid "YouTube URL"
+msgstr ""
+
+#: inc/customizer.php:488
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/customizer.php:493
+msgid "Tumblr URL"
+msgstr ""
+
+#: inc/customizer.php:498
+msgid "Flickr URL"
+msgstr ""
+
+#: inc/customizer.php:503
+msgid "VK URL"
+msgstr ""
+
+#: inc/customizer.php:508
+msgid "Xing URL"
+msgstr ""
+
+#: inc/customizer.php:513
+msgid "Reddit URL"
+msgstr ""
+
+#: inc/customizer.php:542
+msgid "Open social links"
+msgstr ""
+
+#: inc/customizer.php:548 inc/customizer.php:1801
+msgid "Same window"
+msgstr ""
+
+#: inc/customizer.php:549
+msgid "New Window"
+msgstr ""
+
+#: inc/customizer.php:567
+msgid "One Page Map"
+msgstr ""
+
+#: inc/customizer.php:579
+msgid "Show the one page section map"
+msgstr ""
+
+#: inc/customizer.php:593
+msgid "Slider Text"
+msgstr ""
+
+#: inc/customizer.php:607
+msgid "About Us Text"
+msgstr ""
+
+#: inc/customizer.php:621
+msgid "Features Text"
+msgstr ""
+
+#: inc/customizer.php:635
+msgid "Skills Text"
+msgstr ""
+
+#: inc/customizer.php:649
+msgid "CTA Text"
+msgstr ""
+
+#: inc/customizer.php:663
+msgid "Services Text"
+msgstr ""
+
+#: inc/customizer.php:677
+msgid "Blog Text"
+msgstr ""
+
+#: inc/customizer.php:691
+msgid "Team Text"
+msgstr ""
+
+#: inc/customizer.php:705
+msgid "Contact Text"
+msgstr ""
+
+#: inc/customizer.php:722
+msgid "Display section slider"
+msgstr ""
+
+#: inc/customizer.php:736 inc/customizer.php:907 inc/customizer.php:1151
+#: inc/customizer.php:1429 inc/customizer.php:1638 inc/customizer.php:1830
+#: inc/customizer.php:2145 inc/customizer.php:2367 inc/customizer.php:2577
+msgid "Section ID name"
+msgstr ""
+
+#: inc/customizer.php:737 inc/customizer.php:908 inc/customizer.php:1152
+#: inc/customizer.php:1430 inc/customizer.php:1639 inc/customizer.php:1831
+#: inc/customizer.php:2146 inc/customizer.php:2368 inc/customizer.php:2578
+msgid ""
+"ID for this section - if you want the user to be able to scroll down to this "
+"section."
+msgstr ""
+
+#: inc/customizer.php:756
+msgid "Background Color shade Section"
+msgstr ""
+
+#: inc/customizer.php:776 inc/customizer.php:967 inc/customizer.php:1211
+#: inc/customizer.php:1489 inc/customizer.php:1698 inc/customizer.php:1890
+#: inc/customizer.php:2205 inc/customizer.php:2427 inc/customizer.php:2637
+msgid "Text Color Section"
+msgstr ""
+
+#: inc/customizer.php:791
+msgid "Show scroll down button"
+msgstr ""
+
+#: inc/customizer.php:811
+msgid "Slider "
+msgstr ""
+
+#: inc/customizer.php:827
+msgid "Slide image "
+msgstr ""
+
+#: inc/customizer.php:842
+msgid "Slider Text "
+msgstr ""
+
+#: inc/customizer.php:857
+msgid "Slider Subtext "
+msgstr ""
+
+#: inc/customizer.php:876
+msgid "Note:"
+msgstr ""
+
+#: inc/customizer.php:877
+msgid "Upload up to three sliders. Recommended image size: 1920X1080"
+msgstr ""
+
+#: inc/customizer.php:893
+msgid "Display section about us"
+msgstr ""
+
+#: inc/customizer.php:927 inc/customizer.php:1171 inc/customizer.php:1449
+#: inc/customizer.php:1658 inc/customizer.php:1850 inc/customizer.php:2165
+#: inc/customizer.php:2387 inc/customizer.php:2597
+msgid "Background Image Section (optional)"
+msgstr ""
+
+#: inc/customizer.php:947 inc/customizer.php:1191 inc/customizer.php:1469
+#: inc/customizer.php:1678 inc/customizer.php:1870 inc/customizer.php:2185
+#: inc/customizer.php:2407 inc/customizer.php:2617
+msgid "Background Color Section"
+msgstr ""
+
+#: inc/customizer.php:976 sections/section-aboutus.php:5
+msgid "About Us"
+msgstr ""
+
+#: inc/customizer.php:983 inc/customizer.php:1227 inc/customizer.php:1505
+#: inc/customizer.php:1906 inc/customizer.php:2221 inc/customizer.php:2443
+#: inc/customizer.php:2653
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:992 sections/section-aboutus.php:6
+msgid "Who We Are"
+msgstr ""
+
+#: inc/customizer.php:999 inc/customizer.php:1243 inc/customizer.php:1521
+#: inc/customizer.php:1922 inc/customizer.php:2237 inc/customizer.php:2459
+#: inc/customizer.php:2669
+msgid "Subtitle"
+msgstr ""
+
+#: inc/customizer.php:1014 inc/customizer.php:1258 inc/customizer.php:1536
+#: inc/customizer.php:1937 inc/customizer.php:2252 inc/customizer.php:2474
+#: inc/customizer.php:2684
+msgid "Title and subtitle position"
+msgstr ""
+
+#: inc/customizer.php:1021 inc/customizer.php:1265 inc/customizer.php:1543
+#: inc/customizer.php:1944 inc/customizer.php:2259 inc/customizer.php:2481
+#: inc/customizer.php:2691
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:1022 inc/customizer.php:1266 inc/customizer.php:1544
+#: inc/customizer.php:1945 inc/customizer.php:2260 inc/customizer.php:2482
+#: inc/customizer.php:2692
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:1033 inc/customizer.php:1277 inc/customizer.php:1555
+#: inc/customizer.php:1956 inc/customizer.php:2271 inc/customizer.php:2493
+#: inc/customizer.php:2703
+msgid "Title animation"
+msgstr ""
+
+#: inc/customizer.php:1040 inc/customizer.php:1284 inc/customizer.php:1562
+#: inc/customizer.php:1963 inc/customizer.php:2278 inc/customizer.php:2500
+#: inc/customizer.php:2710
+msgid "No"
+msgstr ""
+
+#: inc/customizer.php:1041 inc/customizer.php:1285 inc/customizer.php:1563
+#: inc/customizer.php:1964 inc/customizer.php:2279 inc/customizer.php:2501
+#: inc/customizer.php:2711
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer.php:1056
+msgid "About us text"
+msgstr ""
+
+#: inc/customizer.php:1070 inc/customizer.php:1367 inc/customizer.php:2025
+#: inc/customizer.php:2544
+msgid "Choose the page to display"
+msgstr ""
+
+#: inc/customizer.php:1071
+msgid "Title, content and featured image will be used in the box"
+msgstr ""
+
+#: inc/customizer.php:1089
+msgid "About us button"
+msgstr ""
+
+#: inc/customizer.php:1097 inc/customizer.php:1376 inc/customizer.php:1758
+#: sections/section-aboutus.php:10 sections/section-cta.php:10
+#: sections/section-features.php:34 sections/section-features.php:58
+#: sections/section-features.php:62 sections/section-features.php:102
+#: sections/section-features.php:106 sections/section-features.php:110
+#: sections/section-features.php:166 sections/section-features.php:170
+#: sections/section-features.php:174 sections/section-features.php:178
+msgid "More Information"
+msgstr ""
+
+#: inc/customizer.php:1104 inc/customizer.php:1764
+msgid "Text Button"
+msgstr ""
+
+#: inc/customizer.php:1119 inc/customizer.php:1779
+msgid "Link Button"
+msgstr ""
+
+#: inc/customizer.php:1137
+msgid "Display section features"
+msgstr ""
+
+#: inc/customizer.php:1220 sections/section-features.php:5
+msgid "Elements"
+msgstr ""
+
+#: inc/customizer.php:1236 sections/section-features.php:6
+msgid "Amazing Features"
+msgstr ""
+
+#: inc/customizer.php:1296
+msgid "How many boxes to display"
+msgstr ""
+
+#: inc/customizer.php:1303
+msgid "1"
+msgstr ""
+
+#: inc/customizer.php:1304
+msgid "2"
+msgstr ""
+
+#: inc/customizer.php:1305
+msgid "3"
+msgstr ""
+
+#: inc/customizer.php:1306
+msgid "4"
+msgstr ""
+
+#: inc/customizer.php:1317 inc/customizer.php:1975
+msgid "Text lenght for boxes content (number of words)"
+msgstr ""
+
+#: inc/customizer.php:1337
+msgid "Box number "
+msgstr ""
+
+#: inc/customizer.php:1354 inc/customizer.php:1718 inc/customizer.php:2012
+#: inc/customizer.php:2888
+msgid "FontAwesome Icon"
+msgstr ""
+
+#: inc/customizer.php:1368 inc/customizer.php:2026
+msgid "Title and content (unformatted) will be used in the box"
+msgstr ""
+
+#: inc/customizer.php:1383
+msgid "Text Button "
+msgstr ""
+
+#: inc/customizer.php:1397
+msgid "Link Button "
+msgstr ""
+
+#: inc/customizer.php:1415
+msgid "Display section skills"
+msgstr ""
+
+#: inc/customizer.php:1498 sections/section-skills.php:5
+msgid "Our Skills"
+msgstr ""
+
+#: inc/customizer.php:1514 sections/section-skills.php:6
+msgid "What We Do"
+msgstr ""
+
+#: inc/customizer.php:1579
+msgid "Skill number "
+msgstr ""
+
+#: inc/customizer.php:1591
+msgid "Skill name"
+msgstr ""
+
+#: inc/customizer.php:1605
+msgid "Skill value"
+msgstr ""
+
+#: inc/customizer.php:1606
+msgid "Enter a value between 0 and 100"
+msgstr ""
+
+#: inc/customizer.php:1624
+msgid "Display section call to action"
+msgstr ""
+
+#: inc/customizer.php:1733
+msgid "Call to action phrase"
+msgstr ""
+
+#: inc/customizer.php:1749
+msgid "Call to action description"
+msgstr ""
+
+#: inc/customizer.php:1794
+msgid "Open the link in"
+msgstr ""
+
+#: inc/customizer.php:1802
+msgid "New window"
+msgstr ""
+
+#: inc/customizer.php:1816
+msgid "Display section services"
+msgstr ""
+
+#: inc/customizer.php:1899 sections/section-services.php:5
+msgid "Services"
+msgstr ""
+
+#: inc/customizer.php:1915 sections/section-services.php:6
+msgid "What We Offer"
+msgstr ""
+
+#: inc/customizer.php:1995
+msgid "Service number "
+msgstr ""
+
+#: inc/customizer.php:2045
+msgid "Services text"
+msgstr ""
+
+#: inc/customizer.php:2059
+msgid "Phrase"
+msgstr ""
+
+#: inc/customizer.php:2075
+msgid "Textarea"
+msgstr ""
+
+#: inc/customizer.php:2094
+msgid "Services image"
+msgstr ""
+
+#: inc/customizer.php:2112
+msgid "Upload Image"
+msgstr ""
+
+#: inc/customizer.php:2113
+msgid "Recommended image size: 1000X600px."
+msgstr ""
+
+#: inc/customizer.php:2131
+msgid "Display section blog"
+msgstr ""
+
+#: inc/customizer.php:2214 sections/section-blog.php:7
+msgid "News"
+msgstr ""
+
+#: inc/customizer.php:2230 sections/section-blog.php:8
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/customizer.php:2290
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/customizer.php:2305
+msgid "Text lenght for blog posts (number of words)"
+msgstr ""
+
+#: inc/customizer.php:2314 sections/section-blog.php:12
+msgid "Go to the blog!"
+msgstr ""
+
+#: inc/customizer.php:2320
+msgid "Text blog button"
+msgstr ""
+
+#: inc/customizer.php:2335
+msgid "Link Blog Button"
+msgstr ""
+
+#: inc/customizer.php:2353
+msgid "Display section team"
+msgstr ""
+
+#: inc/customizer.php:2436 sections/section-team.php:5
+msgid "Our Team"
+msgstr ""
+
+#: inc/customizer.php:2452 sections/section-team.php:6
+msgid "Nice to meet you"
+msgstr ""
+
+#: inc/customizer.php:2512
+msgid "Text lenght for team content (number of words)"
+msgstr ""
+
+#: inc/customizer.php:2532
+msgid "Person number "
+msgstr ""
+
+#: inc/customizer.php:2545
+msgid "Featured Image, title and content will be used in the box"
+msgstr ""
+
+#: inc/customizer.php:2563
+msgid "Display section contact"
+msgstr ""
+
+#: inc/customizer.php:2646 sections/section-contact.php:5
+msgid "Contact Us"
+msgstr ""
+
+#: inc/customizer.php:2662 sections/section-contact.php:6
+msgid "Get in touch"
+msgstr ""
+
+#: inc/customizer.php:2726
+msgid "Contact fields"
+msgstr ""
+
+#: inc/customizer.php:2740
+msgid "Additional Text"
+msgstr ""
+
+#: inc/customizer.php:2756
+msgid "Company Name"
+msgstr ""
+
+#: inc/customizer.php:2772
+msgid "Address line 1"
+msgstr ""
+
+#: inc/customizer.php:2788
+msgid "Address line 2"
+msgstr ""
+
+#: inc/customizer.php:2804
+msgid "Address line 3"
+msgstr ""
+
+#: inc/customizer.php:2820
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer.php:2836
+msgid "Fax Number"
+msgstr ""
+
+#: inc/customizer.php:2852
+msgid "Email Address"
+msgstr ""
+
+#: inc/customizer.php:2867
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: inc/customizer.php:3090
+msgid "Thank you for using Croccante WordPress Theme"
+msgstr ""
+
+#: inc/customizer.php:3095
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/customizer.php:3098
+msgid "Watch the demo"
+msgstr ""
+
+#: inc/customizer.php:3101
+msgid "Watch the PRO Version demo"
+msgstr ""
+
+#: inc/customizer.php:3104
+msgid "More info about Croccante theme"
+msgstr ""
+
+#: inc/customizer.php:3386
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer.php:3389
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer.php:3392
+msgid "Google Plus"
+msgstr ""
+
+#: inc/customizer.php:3395
+msgid "Linkedin"
+msgstr ""
+
+#: inc/customizer.php:3398
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer.php:3401
+msgid "YouTube"
+msgstr ""
+
+#: inc/customizer.php:3404
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer.php:3407
+msgid "Tumblr"
+msgstr ""
+
+#: inc/customizer.php:3410
+msgid "Flickr"
+msgstr ""
+
+#: inc/customizer.php:3413
+msgid "VK"
+msgstr ""
+
+#: inc/customizer.php:3416
+msgid "Xing"
+msgstr ""
+
+#: inc/customizer.php:3419
+msgid "Reddit"
+msgstr ""
+
+#: inc/pro-button/class-customize.php:77
+msgid "Croccante PRO Theme"
+msgstr ""
+
+#: inc/pro-button/class-customize.php:78
+msgid "More Info"
+msgstr ""
+
+#: inc/pro-button/class-customize.php:89
+msgid "Croccante documentation"
+msgstr ""
+
+#: inc/pro-button/class-customize.php:101
+msgid "Change sections position"
+msgstr ""
+
+#: inc/pro-button/class-customize.php:102
+msgid "PRO Version"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:35
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:72 template-parts/content-page.php:43
+#: template-parts/content.php:70
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s: search query
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sections/section-skills.php:44 sections/section-skills.php:58
+#: sections/section-skills.php:72 sections/section-skills.php:86
+#: sections/section-skills.php:100 sections/section-skills.php:114
+#: sections/section-skills.php:128 sections/section-skills.php:142
+#: sections/section-skills.php:156 sections/section-skills.php:170
+msgid "%"
+msgstr ""
+
+#: single.php:21
+msgid "Next Post"
+msgstr ""
+
+#: single.php:22
+msgid "Next post:"
+msgstr ""
+
+#: single.php:23
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:24
+msgid "Previous post:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: %1$s: create new post link
+#: template-parts/content-none.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:29 template-parts/content-single.php:38
+#: template-parts/content.php:53
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:43
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content.php:64
+msgid "Read More"
+msgstr ""
